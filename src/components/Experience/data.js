@@ -14,7 +14,7 @@ export const images = [
 
 export const experienceData = [
     {
-        number: '20',
+        number: '15+',
         title1: 'Year',
         title2: 'Experience',
     },
