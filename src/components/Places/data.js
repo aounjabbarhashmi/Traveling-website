@@ -18,8 +18,8 @@ export const places = [
     {
         image: image2,
         rate: '5.0',
-        title: 'Freedom ',
-        subtitle: 'Thailand',
+        title: 'Fakistra',
+        subtitle: 'Greece',
         price: '$1599',
     },
     {
