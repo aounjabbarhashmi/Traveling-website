@@ -1,5 +1,5 @@
 import image1 from "../../assets/beach4.jpg";
-import image2 from "../../assets/about4.jpg";
+import image2 from "../../assets/beach5.jpg";
 
 export const images = [
   {
