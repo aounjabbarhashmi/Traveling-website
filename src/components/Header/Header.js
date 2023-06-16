@@ -13,12 +13,12 @@ const Header = () => {
   }, []);
   useEffect(() => {
     document.body.classList.toggle('dark-theme', isDark);
-  },[isDark])
+  }, [isDark])
   return (
     <header className={`header ${scroll ? "scroll-header" : ""}`} id="header">
       <nav className={`nav container`}>
         <a href="index.html" className="nav__logo">
-        Intrepid Travel with us
+          Intrepid Travel
         </a>
 
         <div
@@ -34,9 +34,8 @@ const Header = () => {
               >
                 <a
                   href={"#" + link.link}
-                  className={`nav__link ${
-                    activeLink === link.link ? "active-link" : ""
-                  }`}
+                  className={`nav__link ${activeLink === link.link ? "active-link" : ""
+                    }`}
                 >
                   {link.text}
                 </a>
@@ -44,7 +43,7 @@ const Header = () => {
             ))}
           </ul>
 
-          <div className="nav__dark" onClick={()=> setIsDark(!isDark)}>
+          <div className="nav__dark" onClick={() => setIsDark(!isDark)}>
             {/* <span className="change-theme-name">Dark mode</span> */}
             <i className={`ri-moon-line change-theme ${isDark ? 'ri-sun-line' : ''}`} id="theme-button"></i>
           </div>
