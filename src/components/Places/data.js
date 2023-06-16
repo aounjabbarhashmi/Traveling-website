@@ -32,8 +32,8 @@ export const places = [
     {
         image: image4,
         rate: '4.8',
-        title: 'Sairee',
-        subtitle: 'Thailand',
+        title: 'Greenfield',
+        subtitle: 'Australia',
         price: '$2499',
     },
     {
