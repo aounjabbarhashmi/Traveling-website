@@ -39,15 +39,15 @@ export const places = [
     {
         image: image5,
         rate: '4.8',
-        title: 'Hua Hin',
-        subtitle: 'Thailand',
+        title: 'Bora Bora',
+        subtitle: 'French Polynesia',
         price: '$2499',
     },
     {
         image: image6,
         rate: '5.0',
-        title: 'Maenam ',
-        subtitle: 'Thailand',
+        title: 'Comillas ',
+        subtitle: 'Spain',
         price: '$1599',
     },
 ];
