@@ -22,7 +22,7 @@ const Banner = () => {
           </div>
         </Fade>
 
-        <div className="home__social">
+        {/* <div className="home__social">
           <Fade top>
             <a
               href="https://www.facebook.com/"
@@ -53,7 +53,7 @@ const Banner = () => {
               <i className="ri-twitter-fill" />
             </a>
           </Fade>
-        </div>
+        </div> */}
        
           <div className="home__info">
             <div>
