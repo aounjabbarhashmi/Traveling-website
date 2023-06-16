@@ -11,8 +11,8 @@ export const places = [
     {
         image: image1,
         rate: '4.8',
-        title: 'Chaweng Noi',
-        subtitle: 'Thailand',
+        title: 'Glass Beach',
+        subtitle: 'California',
         price: '$2499',
     },
     {
