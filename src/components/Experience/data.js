@@ -19,7 +19,7 @@ export const experienceData = [
         title2: 'Experience',
     },
     {
-        number: '75',
+        number: '75+',
         title1: 'Complete',
         title2: 'tours',
     },
